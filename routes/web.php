@@ -19,10 +19,6 @@ Route::get('/test-nursing-public', function () {
     return "Nursing routes are working!";
 });
 
-/**
- * Public route for template data.
- * Note: This may conflict with the authenticated route sharing the same URL pattern.
- */
 Route::get('/nursing/admission/template/data/{title}', [TemplateController::class, 'getTemplateData'])
     ->name('nursing.admission.template.data.public');
 
@@ -71,10 +67,8 @@ Route::middleware(['web', 'auth'])->group(function () {
         Route::get('/onaddmission',              [AdmissionController::class, 'index']);
         Route::get('/admission/select',          [AdmissionController::class, 'selectPatient'])->name('nursing.admission.select');
         Route::get('/admission/create',          [AdmissionController::class, 'create'])->name('nursing.admission.create');
-
-        // Renamed to avoid collision with NursingController storeAdmission
-        Route::post('/admission/store-legacy',   [AdmissionController::class, 'store'])->name('nursing.admission.store.legacy');
-        Route::post('/admission/apply-template-legacy', [AdmissionController::class, 'applyTemplate'])->name('nursing.admission.apply_template.legacy');
+        Route::post('/admission/store',          [AdmissionController::class, 'store'])->name('nursing.admission.store');
+        Route::post('/admission/apply-template', [AdmissionController::class, 'applyTemplate'])->name('nursing.admission.apply_template');
 
         Route::get('/admission/template',            [AdmissionController::class, 'template'])->name('nursing.admission.template');
         Route::get('/admission/template/data/{id?}', [AdmissionController::class, 'getTemplateData'])->name('nursing.admission.template.data');
@@ -83,6 +77,9 @@ Route::middleware(['web', 'auth'])->group(function () {
 
         Route::get('/prescriptions',           [AdmissionController::class, 'index'])->name('prescriptions.index');
         Route::get('/prescriptions/{id}/edit', [AdmissionController::class, 'edit'])->name('prescriptions.edit');
+
+        // This is the route that was erroring: pointing it specifically to AdmissionController@detail
+        Route::get('/admission/detail/{id}',   [AdmissionController::class, 'detail'])->name('nursing.admission.detail');
 
         // ── Post Surgery ─────────────────────────────────────────────────────
         Route::get('/PostSurgery', [PostSurgeryController::class, 'index'])->name('nursing.postsurgery');
@@ -111,13 +108,12 @@ Route::middleware(['web', 'auth'])->group(function () {
         Route::get('/fresh/post-operation-medicines', [FreshController::class, 'getPostOperationMedicines'])->name('nursing.fresh.post-operation-medicines');
         Route::get('/fresh/template/{id}',            [FreshController::class, 'getTemplateData'])->name('nursing.fresh.template.data');
 
-        // New nursing admission routes (Fixed 500 error entry point)
-        Route::get('/on-admission',            [NursingController::class, 'onAdmission'])->name('nursing.on-admission');
-        Route::post('/admission/store',        [NursingController::class, 'storeAdmission'])->name('nursing.admission.store');
-        Route::post('/admission/apply-template',[NursingController::class, 'applyTemplate'])->name('nursing.admission.apply-template');
-        Route::get('/admission/detail/{id}',   [NursingController::class, 'getAdmissionDetail'])->name('nursing.admission.detail');
-
     }); // end prefix nursing
+
+
+Route::get('/nursing/on-admission',            [NursingController::class, 'onAdmission'])->name('nursing.on-admission');
+Route::post('/nursing/admission/store',        [NursingController::class, 'storeAdmission'])->name('nursing.admission.store');
+Route::post('/nursing/admission/apply-template',[NursingController::class, 'applyTemplate'])->name('nursing.admission.apply-template');
 
     // ─────────────────────────────────────────────────────────────────────────
     // PREFIX: Nursing (PascalCase aliases)
