@@ -1,19 +1,138 @@
-# 💫 About Me:
-i am web developer i build website using php  i use laravel Codelgniter 3 frame work my databse is my sql 
+# PHP & Laravel Web Developer | Business Applications, POS, Inventory & E-commerce
 
+I’m a PHP web developer focused on building practical business applications with Laravel, CodeIgniter 3, and relational databases.
 
-## 🌐 Socials:
-[![Bluesky](https://img.shields.io/badge/bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=%23FFFFFF)](https://bsky.app/profile/Sazzad) [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/sazzad ali) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Sazzad Ali) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hs.sazzad) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sazzad ali) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Sazzad Ali) 
+My portfolio includes POS and sales management systems, inventory workflows, e-commerce applications, ERP-style business modules, and administrative dashboards. I work with PHP, Laravel, MySQL, Blade, HTML, CSS, JavaScript, Bootstrap, and Git.
 
-# 💻 Tech Stack:
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Code-Igniter](https://img.shields.io/badge/CodeIgniter-%23EF4223.svg?style=for-the-badge&logo=codeIgniter&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=sazzad&theme=dark&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=sazzad&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=sazzad&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+## What I Can Help With
+
+- Laravel business applications
+- POS and sales management systems
+- Inventory and stock management
+- E-commerce websites and product workflows
+- Admin dashboards and CRUD modules
+- Customer, supplier, purchase, and return management
+- Role-based access and permission workflows
+- CodeIgniter 3 application development and maintenance
+- MySQL-backed PHP applications
+- PDF, CSV, and spreadsheet-oriented reporting workflows
+
+## Technical Skills
+
+- **Backend:** PHP, Laravel, CodeIgniter 3
+- **Database:** MySQL
+- **Frontend:** HTML, CSS, JavaScript, Blade, Bootstrap
+- **Tools and workflow:** Git, Vite, jQuery, DataTables
+- **Business systems:** POS, inventory, e-commerce, ERP, accounting, HR, and administrative workflows
+
+## Featured Projects
+
+### POS & Inventory Management System
+
+A Laravel-based business application focused on point-of-sale and inventory operations.
+
+**Verified capabilities include:**
+
+- POS sales processing
+- Held and resumed sales
+- Receipt generation
+- Product search
+- Product, category, brand, rack, shelf, and unit management
+- Bulk product upload
+- Stock and low-stock monitoring
+- Customer and supplier management
+- Purchases and returns
+- Income categories
+- User, role, and permission management
+
+**Technology:** PHP, Laravel, MySQL, Blade, AdminLTE, JavaScript, and Vite
+
+[View the repository](https://github.com/Hssazzad/Possales-Managment-sytem)
 
 ---
-[![](https://komarev.com/ghpvc/?username=sazzad&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### PrintexBD ERP System
 
+A CodeIgniter 3 and MySQL business application focused on printing and garment manufacturing workflows.
+
+**Verified capabilities documented in the project include:**
+
+- Order and booking management
+- Production-stage tracking
+- Delivery and challan management
+- Invoice and payment workflows
+- Accounting and financial reports
+- Employee, attendance, leave, and payroll modules
+- Raw-material inventory management
+- Role-based dashboards
+- PDF and spreadsheet export workflows
+
+**Technology:** PHP, CodeIgniter 3, MySQL, Bootstrap, JavaScript, jQuery, DataTables, Chart.js, mPDF, and spreadsheet export tooling
+
+[View the repository](https://github.com/Hssazzad/Printexbd-)
+
+---
+
+### Laravel E-commerce Application
+
+A Laravel-based e-commerce application with customer-facing product browsing and separate order-related route modules.
+
+**Verified capabilities include:**
+
+- Home, shop, category, and product-detail pages
+- Product search
+- Product reviews
+- Cart-related workflows
+- Customer-related workflows
+- Order-related route modules
+- Filament included for administration workflows
+- Permission and role-management packages
+- PDF generation support through Laravel PDF packages
+
+**Technology:** PHP, Laravel, Blade, Filament, JavaScript, and Vite
+
+[View the repository](https://github.com/Hssazzad/Cloth-Bd-Ecommerce-site-)
+
+---
+
+### Clinic/Hospital Management Application
+
+A Laravel-based administrative application with doctor, appointment, dashboard, SMS, and access-management workflows.
+
+**Verified capabilities include:**
+
+- Authenticated administration
+- Dashboard access
+- Doctor management
+- Appointment management
+- Broadcast SMS routes
+- User-menu and access-management workflows
+- Account-related administration
+
+**Technology:** PHP, Laravel, Blade, AdminLTE, JavaScript, and Vite
+
+[View the repository](https://github.com/Hssazzad/Proffessor--Clinic-Hospital-managment)
+
+## Development Approach
+
+I focus on building understandable, practical applications around real business workflows. My work typically emphasizes:
+
+- Clear database-backed modules
+- Organized CRUD operations
+- Role-based access and administration
+- Search, filtering, and reporting workflows
+- Responsive interfaces using established frontend tools
+- Maintainable PHP application structure
+
+## Open to Freelance Projects
+
+I’m available for freelance work involving:
+
+- Laravel business applications
+- POS and inventory systems
+- E-commerce websites
+- Admin dashboards and CRUD modules
+- PHP and MySQL application development
+- CodeIgniter 3 maintenance and improvements
+
+For project discussions, please contact me through GitHub.
