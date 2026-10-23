@@ -1,15 +1,23 @@
 # PHP & Laravel Web Developer | Business Applications, POS, Inventory & E-commerce
 
-I’m a PHP web developer focused on building practical business applications with Laravel, CodeIgniter 3, and relational databases.
+I build practical PHP and Laravel applications for business operations, including POS systems, inventory management, e-commerce workflows, ERP-style modules, healthcare administration, and internal dashboards.
 
-My portfolio includes POS and sales management systems, inventory workflows, e-commerce applications, ERP-style business modules, and administrative dashboards. I work with PHP, Laravel, MySQL, Blade, HTML, CSS, JavaScript, Bootstrap, and Git.
+My work focuses on clear business logic, database-backed workflows, role-based access, maintainable CRUD modules, and interfaces that support day-to-day operations.
+
+## Freelance Profile
+
+I am available for PHP and Laravel development projects through Upwork.
+
+[View my Upwork profile](https://www.upwork.com/freelancers/~010877e08db0893a53)
 
 ## What I Can Help With
 
 - Laravel business applications
 - POS and sales management systems
 - Inventory and stock management
-- E-commerce websites and product workflows
+- E-commerce websites and order workflows
+- ERP-style business modules
+- Healthcare and clinic management workflows
 - Admin dashboards and CRUD modules
 - Customer, supplier, purchase, and return management
 - Role-based access and permission workflows
@@ -22,28 +30,30 @@ My portfolio includes POS and sales management systems, inventory workflows, e-c
 - **Backend:** PHP, Laravel, CodeIgniter 3
 - **Database:** MySQL
 - **Frontend:** HTML, CSS, JavaScript, Blade, Bootstrap
+- **Admin interfaces:** AdminLTE, Filament
 - **Tools and workflow:** Git, Vite, jQuery, DataTables
-- **Business systems:** POS, inventory, e-commerce, ERP, accounting, HR, and administrative workflows
+- **Business domains:** POS, inventory, e-commerce, ERP, healthcare, accounting, HR, and administrative workflows
 
 ## Featured Projects
 
 ### POS & Inventory Management System
 
-A Laravel-based business application focused on point-of-sale and inventory operations.
+A Laravel-based POS and inventory application for managing products, sales, stock, customers, suppliers, purchases, returns, and income tracking.
 
-**Verified capabilities include:**
+**Key features:**
 
-- POS sales processing
+- POS sales processing and payment tracking
 - Held and resumed sales
 - Receipt generation
-- Product search
-- Product, category, brand, rack, shelf, and unit management
+- Product search and product management
 - Bulk product upload
-- Stock and low-stock monitoring
+- Product categories, brands, racks, shelves, and units
+- Stock monitoring and low-stock alerts
 - Customer and supplier management
-- Purchases and returns
-- Income categories
-- User, role, and permission management
+- Purchase and return workflows
+- Income categories and reporting
+- Role-based access and permission management
+- Print and CSV-oriented reporting
 
 **Technology:** PHP, Laravel, MySQL, Blade, AdminLTE, JavaScript, and Vite
 
@@ -53,19 +63,20 @@ A Laravel-based business application focused on point-of-sale and inventory oper
 
 ### PrintexBD ERP System
 
-A CodeIgniter 3 and MySQL business application focused on printing and garment manufacturing workflows.
+A CodeIgniter 3 and MySQL ERP application for printing and garment manufacturing workflows.
 
-**Verified capabilities documented in the project include:**
+**Key features:**
 
-- Order and booking management
-- Production-stage tracking
+- Order booking and sample management
+- Production tracking across cutting, printing, sewing, finishing, packing, and delivery
 - Delivery and challan management
 - Invoice and payment workflows
-- Accounting and financial reports
-- Employee, attendance, leave, and payroll modules
-- Raw-material inventory management
-- Role-based dashboards
-- PDF and spreadsheet export workflows
+- Accounting, vouchers, ledger, trial balance, balance sheet, and income statement modules
+- Employee management, attendance, leave, payroll, and salary increments
+- Raw-material inventory and consumption tracking
+- Role-based dashboards and access control
+- Search and centralized reporting
+- PDF, Excel, CSV, and print-oriented export workflows
 
 **Technology:** PHP, CodeIgniter 3, MySQL, Bootstrap, JavaScript, jQuery, DataTables, Chart.js, mPDF, and spreadsheet export tooling
 
@@ -75,21 +86,23 @@ A CodeIgniter 3 and MySQL business application focused on printing and garment m
 
 ### Laravel E-commerce Application
 
-A Laravel-based e-commerce application with customer-facing product browsing and separate order-related route modules.
+A Laravel-based e-commerce application with product browsing, cart and checkout workflows, order management, payments, product reviews, and an administrative panel.
 
-**Verified capabilities include:**
+**Key features:**
 
-- Home, shop, category, and product-detail pages
-- Product search
-- Product reviews
-- Cart-related workflows
-- Customer-related workflows
-- Order-related route modules
-- Filament included for administration workflows
-- Permission and role-management packages
-- PDF generation support through Laravel PDF packages
+- Home, shop, category, search, and product-detail pages
+- Product and category management
+- Product images and reviews
+- Cart and checkout workflows
+- Customer account workflows
+- Order tracking and order management
+- Payment-related workflows
+- Email notifications for customer orders and order status updates
+- Filament-based administration resources
+- Role and permission management
+- PDF generation support
 
-**Technology:** PHP, Laravel, Blade, Filament, JavaScript, and Vite
+**Technology:** PHP, Laravel, Blade, Filament, JavaScript, Vite, and MySQL
 
 [View the repository](https://github.com/Hssazzad/Cloth-Bd-Ecommerce-site-)
 
@@ -97,42 +110,53 @@ A Laravel-based e-commerce application with customer-facing product browsing and
 
 ### Clinic/Hospital Management Application
 
-A Laravel-based administrative application with doctor, appointment, dashboard, SMS, and access-management workflows.
+A Laravel-based healthcare administration application covering patient, doctor, appointment, admission, prescription, nursing, billing, and access-management workflows.
 
-**Verified capabilities include:**
+**Key features:**
 
-- Authenticated administration
+- User authentication and account management
 - Dashboard access
-- Doctor management
+- Patient registration and management
+- Doctor and speciality management
 - Appointment management
-- Broadcast SMS routes
-- User-menu and access-management workflows
-- Account-related administration
+- Patient admission and discharge workflows
+- Prescription and medicine workflows
+- Investigation and diagnosis-related workflows
+- Nursing and post-surgery workflows
+- Billing, invoices, payments, and due-list management
+- Operation consent workflows
+- Broadcast SMS functionality
+- Configurable user menus and access control
+- PDF and print-oriented prescription and billing views
 
-**Technology:** PHP, Laravel, Blade, AdminLTE, JavaScript, and Vite
+**Technology:** PHP, Laravel, MySQL, Blade, AdminLTE, JavaScript, Vite, mPDF, and Laravel Dompdf
 
 [View the repository](https://github.com/Hssazzad/Proffessor--Clinic-Hospital-managment)
 
 ## Development Approach
 
-I focus on building understandable, practical applications around real business workflows. My work typically emphasizes:
+I focus on building understandable applications around real business workflows. My work typically emphasizes:
 
 - Clear database-backed modules
 - Organized CRUD operations
 - Role-based access and administration
 - Search, filtering, and reporting workflows
-- Responsive interfaces using established frontend tools
-- Maintainable PHP application structure
+- Maintainable PHP and Laravel structure
+- Practical interfaces using established frontend tools
+- Careful separation of business logic and presentation
 
 ## Open to Freelance Projects
 
-I’m available for freelance work involving:
+I am available for freelance work involving:
 
 - Laravel business applications
 - POS and inventory systems
 - E-commerce websites
+- ERP-style modules
+- Healthcare and clinic management systems
 - Admin dashboards and CRUD modules
 - PHP and MySQL application development
 - CodeIgniter 3 maintenance and improvements
+- Reporting, PDF, CSV, and spreadsheet workflows
 
-For project discussions, please contact me through GitHub.
+For project discussions, please contact me through [Upwork](https://www.upwork.com/freelancers/~010877e08db0893a53) or GitHub.
